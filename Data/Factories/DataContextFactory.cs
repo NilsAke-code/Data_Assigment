@@ -1,7 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Data.Contexts;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
-namespace Data.Contexts;
+namespace Data.Factories;
 
 public class DataContextFactory : IDesignTimeDbContextFactory<DataContext>
 {
